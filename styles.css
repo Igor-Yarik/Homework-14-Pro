@@ -1,0 +1,64 @@
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 100%;
+    margin: auto;
+    background-color: rgba(128, 128, 128, .1);
+    border-radius: 20px;
+    box-shadow: 0 0 20px 1px gray;    
+    padding: 15px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.login_input {
+    display: flex;
+}
+
+#email, #login, #password {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: none;    
+    border-radius: 5px;
+    background-color: rgb(90, 90, 255);
+    color: #FFFFFF;
+    transition: all 0.2s;    
+}
+
+button:hover {
+    box-shadow: 0 0 10px 1px blue;
+    transition: all 0.2s;
+}
+
+#loader {
+    display: none;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+}
